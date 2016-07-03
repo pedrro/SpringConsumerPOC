@@ -1,0 +1,26 @@
+{
+  "name": "rest_consumer",
+  "version": "1.0.0",
+  "description": "[Article - Tutorial](https://spring.io/guides/gs/consuming-rest/)",
+  "main": "index.js",
+  "scripts": {
+    "contract": "node_modules/consumer-contracts/lib/cli.js run src/test/resources/contract-test/contract-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrro/SpringConsumerPOC.git"
+  },
+  "keywords": [
+    "contract",
+    "test"
+  ],
+  "author": "@pedrro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrro/SpringConsumerPOC/issues"
+  },
+  "homepage": "https://github.com/pedrro/SpringConsumerPOC#readme",
+  "devDependencies": {
+    "consumer-contracts": "^1.4.0"
+  }
+}
