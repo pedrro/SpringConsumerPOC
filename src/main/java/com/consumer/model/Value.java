@@ -1,4 +1,4 @@
-package com.consumer;
+package com.consumer.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
@@ -12,8 +12,8 @@ import lombok.ToString;
 @Setter
 @ToString
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Quote {
+public class Value {
 
-    private String type;
-    private Value value;
+    private Long id;
+    private String quote;
 }
